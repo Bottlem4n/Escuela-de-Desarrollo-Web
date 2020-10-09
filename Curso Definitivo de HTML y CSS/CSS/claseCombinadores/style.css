@@ -1,0 +1,23 @@
+/* Hermano Adyacente o Cercano 
+Solo aplica a la <p> mas cercana y por debajo de <h2> */
+h2 + p {
+    color: red;
+}
+
+/*Hermano General
+Aplica a todas las <p> por debajo de h3 */
+h3 ~ p {
+    color: blue;
+}
+
+/*Hijo
+Solo aplica a <p> dentro de section pero no a las que esten dentro de article */
+section > p {
+    color: green;
+}
+
+/*Descendiente
+Aplica a todas las <p> dentro de main */
+main p {
+    color: yellow;
+}

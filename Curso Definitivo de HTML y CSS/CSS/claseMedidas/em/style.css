@@ -1,0 +1,13 @@
+/*em toma la medida de la etiqueta padre directo y lo multiplica*/
+
+body {
+    font-size: 20px;
+}
+
+.textContainer{
+    font-size: 1.5em;
+}
+
+.textContainer div{
+    font-size: 2em;
+}

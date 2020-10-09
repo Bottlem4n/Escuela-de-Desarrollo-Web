@@ -1,0 +1,13 @@
+/*rem simpre va a tomar como base el tamaño de la etiqueta HTML*/
+
+html{
+    font-size: 62.5%;
+} /*con este truco puedo establecer que el tamaño para la etiqueta HMTL sea 10px, y asi manejar mas facilmente la proporcion con rem*/
+
+p {
+    font-size: 2rem;
+}
+
+main div{
+    font-size: 2rem;
+}
