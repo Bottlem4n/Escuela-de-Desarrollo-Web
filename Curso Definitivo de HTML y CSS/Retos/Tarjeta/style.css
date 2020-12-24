@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: purple;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+#caja1{
+    background-color: seashell;
+    border: 2px solid;
+    margin: auto;
+    position: relative;
+    top: 25vh;
+    border-radius: 50px;
+    width: 40vw;
+    min-height: 60vh;
+    overflow: hidden;
+}
+
+
+#caja2{
+    text-align: center;
+    padding: 3vh;
+    background-color: red;
+    border: 2px solid;
+    margin: auto;
+    position: relative;
+    top: -40vh ;
+    border-radius: 10px;
+    width: 25vw;
+}
+
+#caja1 > p{
+    padding: 60px 10px 10px 10px; 
+    font-size: 1.5rem;
+}
+
+#caja2 > h1{
+    padding: 0px;
+    font-size: 2.5rem;
+}
+
